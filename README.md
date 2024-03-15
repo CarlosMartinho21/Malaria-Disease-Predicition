@@ -34,13 +34,16 @@ Evaluation metrics such as accuracy are computed to quantify the model's predict
 # Utility of the models created
 
 -Improved Diagnosis Accuracy
+
 -Early Detection and Treatment
+
 -Support for Remote Healthcare
 
 ## Future Improvements
 
 Future iterations of the project may include:
 - Increase sub sample size to refine models and avoid overfitting
+
   
 To ensure the capacity of expandability, as the models can be continually refined and adapted based on feedback, new data, and advancements in machine learning techniques, We intend to develop automated training and deployment pipelines that can be easily configured and adapted for different models and regularization techniques. This facilitates experimentation with different model configurations and enables rapid iteration and deployment of new versions.
 
