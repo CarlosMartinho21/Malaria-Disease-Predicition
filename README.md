@@ -38,7 +38,7 @@ The trained model is evaluated using the testing dataset to assess its generaliz
 Evaluation metrics such as accuracy are computed to quantify the model's predictive performance and assess its effectiveness in malaria diagnosis.
 5. **Deployment**: Once trained and evaluated, the model can be deployed in real-world applications to assist healthcare professionals in diagnosing malaria more accurately and efficiently. The model can be integrated into existing healthcare systems or deployed as a standalone application accessible through web or mobile platforms. Continuous monitoring and updates may be required to ensure the model's performance remains robust and up-to-date with emerging data and clinical insights. The final model will be deployed as a web application or API for easy access and utilization by healthcare professionals.
 
-# Utility of the models created
+## Utility of the models created
 
 **Improved Diagnosis Accuracy:** The primary utility of the models is their ability to accurately detect malaria infection in blood cell images. By leveraging advanced neural network architectures such as CNNs and incorporating techniques like dropout regularization, the models can learn complex patterns and features indicative of malaria infection, leading to more reliable and consistent diagnosis compared to traditional methods.
 
