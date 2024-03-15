@@ -22,17 +22,23 @@ The dataset only provides the training set, so it will be necessary to split the
 
 The machine learning model employed in this project utilizes a convolutional neural network (CNN) architecture. CNNs are well-suited for image classification tasks, as they can automatically learn hierarchical representations of features directly from pixel values. The model comprises multiple convolutional layers followed by max-pooling layers to extract and downsample features, followed by fully connected layers for classification. Dropout and batch normalization layers are incorporated to prevent overfitting and improve model generalization.
 
+## Approach
+
+1. **Data Preprocessing**: The dataset will be preprocessed to enhance image quality, normalize features, and prepare it for model training.
+2. **Model Development**: Machine learning and deep learning algorithms will be explored, including convolutional neural networks (CNNs), to build an accurate prediction model.
+3. **Model Evaluation**: The developed models will be evaluated using performance metrics such as model accuracy to assess their effectiveness in predicting malaria disease.
+4. **Deployment**: Once trained and evaluated, the model can be deployed in real-world applications to assist healthcare professionals in diagnosing malaria more accurately and efficiently. The model can be integrated into existing healthcare systems or deployed as a standalone application accessible through web or mobile platforms. Continuous monitoring and updates may be required to ensure the model's performance remains robust and up-to-date with emerging data and clinical insights. The final model will be deployed as a web application or API for easy access and utilization by healthcare professionals.
+
+
 ## Training Process
 
-The model is trained using the training dataset with appropriate data augmentation techniques to increase the diversity and robustness of the training samples. During training, the model's performance is monitored using metrics such as accuracy, precision, recall, and F1-score. Hyperparameter tuning may be performed to optimize the model's performance, including learning rate scheduling, regularization techniques (e.g., dropout, L2 regularization), and model architecture adjustments.
+The model is trained using the training dataset. During training, the model's performance is monitored using metrics such as accuracy and loss. Hyperparameter tuning may be performed to optimize the model's performance, including learning rate scheduling, regularization techniques (e.g., dropout, L2 regularization), and model architecture adjustments.
 
 ## Evaluation
 
 The trained model is evaluated using the testing dataset to assess its generalization performance on unseen data. Evaluation metrics such as accuracy, precision, recall, and F1-score are computed to quantify the model's predictive performance and assess its effectiveness in malaria diagnosis. Additionally, visualizations such as confusion matrices and ROC curves may be generated to provide insights into the model's strengths and weaknesses.
 
-## Deployment
 
-Once trained and evaluated, the model can be deployed in real-world applications to assist healthcare professionals in diagnosing malaria more accurately and efficiently. The model can be integrated into existing healthcare systems or deployed as a standalone application accessible through web or mobile platforms. Continuous monitoring and updates may be required to ensure the model's performance remains robust and up-to-date with emerging data and clinical insights.
 
 ## Conclusion
 
