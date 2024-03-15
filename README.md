@@ -31,16 +31,18 @@ The trained model is evaluated using the testing dataset to assess its generaliz
 Evaluation metrics such as accuracy are computed to quantify the model's predictive performance and assess its effectiveness in malaria diagnosis.
 5. **Deployment**: Once trained and evaluated, the model can be deployed in real-world applications to assist healthcare professionals in diagnosing malaria more accurately and efficiently. The model can be integrated into existing healthcare systems or deployed as a standalone application accessible through web or mobile platforms. Continuous monitoring and updates may be required to ensure the model's performance remains robust and up-to-date with emerging data and clinical insights. The final model will be deployed as a web application or API for easy access and utilization by healthcare professionals.
 
-# Results
+# Utility of the models created
 
-The performance of the developed models will be documented, highlighting the accuracy and reliability of the malaria disease prediction system.
+-Improved Diagnosis Accuracy
+-Early Detection and Treatment
+-Support for Remote Healthcare
 
 ## Future Improvements
 
 Future iterations of the project may include:
-- Fine-tuning model hyperparameters for improved performance.
-- Exploring additional datasets to enhance model generalization.
-- Integrating real-time data collection for continuous model improvement.
+- Increase sub sample size to refine models and avoid overfitting
+  
+To ensure the capacity of expandability, as the models can be continually refined and adapted based on feedback, new data, and advancements in machine learning techniques, We intend to develop automated training and deployment pipelines that can be easily configured and adapted for different models and regularization techniques. This facilitates experimentation with different model configurations and enables rapid iteration and deployment of new versions.
 
 ## Contributors
 
