@@ -33,18 +33,14 @@ Evaluation metrics such as accuracy are computed to quantify the model's predict
 
 # Utility of the models created
 
--Improved Diagnosis Accuracy
+**Improved Diagnosis Accuracy:** The primary utility of the models is their ability to accurately detect malaria infection in blood cell images. By leveraging advanced neural network architectures such as CNNs and incorporating techniques like dropout regularization, the models can learn complex patterns and features indicative of malaria infection, leading to more reliable and consistent diagnosis compared to traditional methods.
 
--Early Detection and Treatment
+**Early Detection and Treatment:** The models enable healthcare providers to identify infected individuals earlier, facilitating timely intervention and reducing the risk of severe complications or mortality associated with the disease.
 
--Support for Remote Healthcare
+**Support for Remote Healthcare:** The models can be deployed as part of health applications, enabling remote diagnosis and monitoring of malaria cases. This is particularly valuable in rural or remote areas where access to healthcare facilities is limited, allowing patients to receive timely diagnosis and guidance from healthcare professionals even from a distance.
 
 ## Future Improvements
-
-Future iterations of the project may include:
-- Increase sub sample size to refine models and avoid overfitting
-
-  
+ 
 To ensure the capacity of expandability, as the models can be continually refined and adapted based on feedback, new data, and advancements in machine learning techniques, We intend to develop automated training and deployment pipelines that can be easily configured and adapted for different models and regularization techniques. This facilitates experimentation with different model configurations and enables rapid iteration and deployment of new versions.
 
 ## Contributors
