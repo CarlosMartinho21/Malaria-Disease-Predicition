@@ -25,6 +25,7 @@ The dataset only provides the training set, so it will be necessary to split the
 
 The machine learning model employed in this project utilizes a convolutional neural network (CNN) architecture.
 CNNs are well-suited for image classification tasks, as they can automatically learn hierarchical representations of features directly from pixel values. 
+
 The model comprises multiple convolutional layers followed by max-pooling layers to extract and downsample features, followed by fully connected layers for classification.
 Dropout and batch normalization layers are incorporated to prevent overfitting and improve model generalization.
 
