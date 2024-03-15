@@ -1,8 +1,14 @@
 # Malaria Disease Prediction Project
 
+Malaria  is a severe illness caused by the Plasmodium parasite and transmitted through infected mosquitoes, that remains a significant global health concern. According to recent reports, it is estimated that there will be approximately 241 million cases and 627 thousand deaths worldwide by 2022, with concerns that the COVID-19 pandemic could exacerbate the situation. The World Health Organization (WHO) has implemented strategies to prevent, treat, and monitor malaria, emphasizing the importance of early diagnosis.
+
+Traditional methods of malaria detection, such as microscopy and rapid diagnostic tests, are labor-intensive, subjective, and reliant on skilled personnel. To address these challenges, deep learning techniques can be seen like promising alternatives. These techniques aim to automate and improve the accuracy of malaria diagnosis.
+
+Deep learning architectures, notably convolutional neural networks (CNNs), have gained traction in medical imaging analysis, including the detection of malaria parasites in blood smear images.
+
 ## Overview
 
-This project aims to develop a machine learning model to predict the presence of malaria based on microscopic images of blood smears. Malaria is a life-threatening disease caused by parasites transmitted through the bite of infected mosquitoes. Early and accurate diagnosis is crucial for effective treatment and disease control. By leveraging machine learning techniques, this project seeks to automate the process of malaria diagnosis, enabling faster and more accessible healthcare services.
+This project aims to develop a machine learning model to predict the presence of malaria based on microscopic images of blood smears. Early and accurate diagnosis is crucial for effective treatment and disease control. By leveraging machine learning techniques, this project seeks to automate the process of malaria diagnosis, enabling faster and more accessible healthcare services.
 
 ## Dataset
 
