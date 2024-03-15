@@ -6,13 +6,16 @@ Traditional methods of malaria detection, such as microscopy and rapid diagnosti
 
 Deep learning architectures, notably convolutional neural networks (CNNs), have gained traction in medical imaging analysis, including the detection of malaria parasites in blood smear images.
 
+
 ## Overview
 
 This project aims to develop a machine learning model to predict the presence of malaria based on microscopic images of blood smears. Early and accurate diagnosis is crucial for effective treatment and disease control. By leveraging machine learning techniques, this project seeks to automate the process of malaria diagnosis, enabling faster and more accessible healthcare services.
 
 ## Dataset
 
-The dataset used in this project consists of microscopic images of blood smears collected from patients infected and uninfected with malaria parasites. Each image is labeled with the corresponding diagnosis (infected or uninfected). The dataset is divided into training and testing sets, with appropriate stratification to ensure a balanced distribution of classes.
+The dataset used in this project consists of microscopic images of blood smears collected from patients infected and uninfected with malaria parasites https://www.tensorflow.org/datasets/catalog/malaria?hl=pt . Each image is labeled with the corresponding diagnosis (parasitized or uninfected). The dataset is divided into training and testing sets, with appropriate stratification to ensure a balanced distribution of classes.
+
+
 
 ## Model Architecture
 
